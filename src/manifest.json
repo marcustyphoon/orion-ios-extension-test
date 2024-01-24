@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Orion Test Extension",
+  "description": "example",
+  "version": "0.1",
+
+  "web_accessible_resources": ["*.js", "*.json"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.example.com/*"],
+      "js": ["content_scripts/example.js"]
+    }
+  ],
+
+  "minimum_chrome_version": "92",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "90.0"
+    }
+  }
+}
