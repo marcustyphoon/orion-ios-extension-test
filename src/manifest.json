@@ -3,9 +3,9 @@
 
   "name": "Orion Test Extension",
   "description": "example",
-  "version": "0.1",
+  "version": "0.2",
 
-  "web_accessible_resources": ["*.js", "*.json"],
+  "web_accessible_resources": ["*.js", "*.json", "*.txt"],
   "content_scripts": [
     {
       "matches": ["*://*.example.com/*"],

@@ -5,7 +5,7 @@
     "eslint": "eslint src",
     "prettier": "prettier src --check",
     "start": "web-ext run",
-    "build": "web-ext build"
+    "build": "web-ext build --overwrite-dest"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
