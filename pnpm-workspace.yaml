@@ -1,0 +1,5 @@
+allowBuilds:
+  core-js: true
+  dtrace-provider: true
+  spawn-sync: true
+strictDepBuilds: true
